@@ -13,6 +13,6 @@ basic
 
 ## CMake command
 ```
-basic$ cmake -S . -B build
-basic$ cmake --build build
+~/basic$ cmake -S . -B build
+~/basic$ cmake --build build
 ```
