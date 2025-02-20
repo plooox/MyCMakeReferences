@@ -20,7 +20,7 @@ configure_file(TutorialConfig.h.in TutorialConfig.h)
 add_executable(${PROJECT_NAME}
     tutorial.cpp
 )
-# Hint: Be sure to specify the source file as tutorial.cxx
+# Hint: Be sure to specify the source file as tutorial.cpp
 
 # 9: Use target_include_directories to include ${PROJECT_BINARY_DIR}
 target_include_directories(${PROJECT_NAME}
